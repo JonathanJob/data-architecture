@@ -18,7 +18,7 @@ Systems like airflow make it easier to version ETL code by performing all the tr
 
 ### Containerization
 
-This helps with the unit testing as docker containers can be spun up with test data to run the checks against. This is not a solution that can get you all the way as many big data/MPP/warehouse systems do not have docker container versions.
+This helps with the unit testing as docker containers can be spun up with test data to run the checks against. This is not a solution that can get you all the way as many big data/MPP/warehouse systems do not have docker container versions. In these cases ephemeral databases/user sandbox areas need to be created and populated for testing. Connection strings need to be dynamically generated to enable the code to work with these ephemeral data structures.
 
 ### Testing frameworks
 
