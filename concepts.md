@@ -8,4 +8,4 @@ Different developers like different level of abstractions. It is also use case d
 
 ## A/B testing
 
-How can a/b testing be used in data architecture. Usability metrics can be collected for different published data sets to determine what type of datasets users are more likely to consume. What is important is to capture results and constantly iterate. Decisions made should be temporary and we should re-assess proven experiments.
+How can a/b testing be used in data architecture? Usability metrics can be collected for different published data sets to determine what type of datasets users are more likely to consume. What is important is to capture results and constantly iterate. Decisions made should be temporary and we should re-assess proven experiments.
