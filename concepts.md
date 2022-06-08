@@ -11,3 +11,9 @@ Using the simplest abstraction required for that use case will allow us to get g
 ## A/B testing
 
 How can a/b testing be used in data architecture? Usability metrics can be collected for different published data sets to determine what type of datasets users are more likely to consume. What is important is to capture results and constantly iterate. Decisions made should be temporary and we should re-assess proven experiments.
+
+## Idempotency
+
+Running a task multiple times on the same input data will not affect the integrity of the output data. This is critical for a systems resiliency to failure. For timeseries data we should make sure duplicates are not entered. Files and events that are already processed must not be re-entered. This can be acheived through a primary key or by maintaining batch numbers to keep track of files or batch numbers that have already been processed. 
+
+If it is type 1 data we need to make sure older data is not used to update more recent events. This can be done through maintaining timestamps.
