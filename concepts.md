@@ -20,4 +20,6 @@ If it is type 1 data we need to make sure older data is not used to update more 
 
 ## Event Streaming
 
-Event streaming is critical in asynchronous systems. Performing hand shakes as well as communicating data across different systems can be performed using event streaming systems like kafka or kinesis. These systems allow the subscribers to be decoupled and technology agnostic of the publishers. This makes it easier to replace systems without having to care for interface apis changing. This makes it easier to test things locally as you do not have to standup variegated source systems. 
+Event streaming is critical in asynchronous systems. Performing hand shakes as well as communicating data across different systems can be performed using event streaming systems like kafka or kinesis. These systems allow the subscribers to be decoupled and technology agnostic of the publishers. This makes it easier to replace systems without having to care for interface apis changing. This makes it easier to test things locally as you do not have to standup variegated source systems.
+
+This is also critical for microservice type applications where data needs to be integrated in real time for functionality like searches which would be more optimized when all data elements exist in a single store.
