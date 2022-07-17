@@ -33,3 +33,8 @@ A simple design is a lot better than a complicated one.
 ## ROI
 
 Is the code providing an ROI
+
+## Lineage
+
+Showing upstream data feeds that contribute data to the creation of the new dataset. Lineage can be very important to tracing the origins of data. It can also show how timing of upstream data feeds affect the timing of the target dataset. Also makes impact analysis easy when there are impacting changes to a data feed. Ability to view the transform logic that affects a particular dataset.
+
