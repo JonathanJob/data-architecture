@@ -24,12 +24,12 @@ Event streaming is critical in asynchronous systems. Performing hand shakes as w
 
 This is also critical for microservice type applications where data needs to be integrated in real time for functionality like searches which would be more optimized when all data elements exist in a single store.
 
-# KISS
+## KISS
 
 Keep it simple st*p*d
 
 A simple design is a lot better than a complicated one.
 
-# ROI
+## ROI
 
 Is the code providing an ROI
