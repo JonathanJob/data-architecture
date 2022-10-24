@@ -5,6 +5,10 @@
 https://iancovert.com/blog/understanding-shap-sage/
 Ian Covert explains shap and sage
 
+## SHAP Improvements
+
+### Fast SHAP
+https://github.com/iancovert/fastshap
 
 ## Limitations
 
