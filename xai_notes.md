@@ -15,3 +15,7 @@ https://github.com/iancovert/fastshap
 https://academic.oup.com/aje/article/177/4/292/147738?login=false
 
 Medical article on limitations of XAI
+
+## UW Course on XAI
+
+https://sites.google.com/cs.washington.edu/csep590b
