@@ -16,6 +16,9 @@ https://academic.oup.com/aje/article/177/4/292/147738?login=false
 
 Medical article on limitations of XAI
 
+https://towardsdatascience.com/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522
+More limitation stuff
+
 ## UW Course on XAI
 
 https://sites.google.com/cs.washington.edu/csep590b
