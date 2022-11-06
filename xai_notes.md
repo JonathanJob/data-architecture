@@ -22,6 +22,11 @@ More limitation stuff
 https://arxiv.org/pdf/2002.11097.pdf
 More limitation
 
+## SHAPLEY Residuals
+
+https://proceedings.neurips.cc/paper/2021/file/dfc6aa246e88ab3e32caeaaecf433550-Paper.pdf
+
+
 ## UW Course on XAI
 
 https://sites.google.com/cs.washington.edu/csep590b
