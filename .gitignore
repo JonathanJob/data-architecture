@@ -1,1 +1,2 @@
 polars_docker/output_data/*.csv
+local_docker_commands.sh

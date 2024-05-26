@@ -8,6 +8,8 @@ data = {
 df = pl.DataFrame(data)
 
 # Write the DataFrame to a CSV file
-df.write_csv("output.csv")
+output_folder = "/data/output"
+
+df.write_csv(f"{output_folder}/output.csv")
 
 print("CSV file created successfully!")
