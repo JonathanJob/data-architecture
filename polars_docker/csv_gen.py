@@ -1,4 +1,6 @@
 import polars as pl
+import os
+from dotenv import load_dotenv
 
 # Create a DataFrame
 data = {
