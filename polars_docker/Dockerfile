@@ -14,4 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Command to run the application (optional, you can customize this)
-CMD ["python3"]
+ENTRYPOINT ["python3"]
+CMD [ "csv_gen.py" ]
