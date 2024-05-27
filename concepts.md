@@ -32,7 +32,11 @@ A simple design is a lot better than a complicated one.
 
 ## ROI
 
-Is the code providing an ROI
+Is the code providing an ROI.
+
+### ROI for distributed vs single node processing systems
+
+I have been exploring converting some of my pyspark transforms into polars code. Polars offers multithreaded processing that can outperform spark code for datasets of smaller sizes (<10M rows). This is especially true when using lazy frames. I am looking for ways of quantifying this in terms of an ROI.
 
 ## Lineage
 
