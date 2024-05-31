@@ -42,3 +42,8 @@ I have been exploring converting some of my pyspark transforms into polars code.
 
 Showing upstream data feeds that contribute data to the creation of the new dataset. Lineage can be very important to tracing the origins of data. It can also show how timing of upstream data feeds affect the timing of the target dataset. Also makes impact analysis easy when there are impacting changes to a data feed. Ability to view the transform logic that affects a particular dataset.
 
+## Schema
+
+What is the importance of schema to the processing efficiency of a data platform. For a really long time database systems adhered to a strict schema with data integrity checks. This allowed the platform to have a lot of information pertaining to the stored data. This allowed for stats collection and for query optimization.
+
+Hadoop had a schema on read. Each row in the file on HDFS could have a different layout. This makes it more difficult to apply data integrity checks and to collect stats. 
