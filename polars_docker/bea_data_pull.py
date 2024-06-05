@@ -25,9 +25,14 @@ response = requests.get(url, headers=headers)
 if response.status_code == 200:
     # Step 4: Parse the JSON response
     data = response.json()
+
+    # Display the JSON data
+    print(f'Data from API: {data}')
+
+    datasets = data['BEAAPI']['Results']['Dataset']
     
     # Step 5: Convert the JSON data to a Polars DataFrame
-    df = pl.DataFrame(data)
+    df = pl.DataFrame(datasets)
     
     # Display the DataFrame
     print(df)
