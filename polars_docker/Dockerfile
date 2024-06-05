@@ -25,7 +25,8 @@ VOLUME ["/data/output"]
 
 # (Optional) Modify your script to write to /data/output/output.csv
 # This assumes your script writes the CSV to the working directory by default.
-CMD ["python3", "csv_gen.py", "/data/output/output.csv"]
+#CMD ["python3", "csv_gen.py", "/data/output/output.csv"]
+CMD ["python3", "bea_data_pull.py"]
 
 
 # Command to run the application (optional, you can customize this)
