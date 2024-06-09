@@ -13,7 +13,9 @@ secret_key = os.getenv('BEA_SECRET_KEY')
 print(f"My secret key is: {secret_key}")
 
 # Step 1: Define the API URL and headers
-url = f'https://apps.bea.gov/api/data?&UserID={secret_key}&method=GDPbyIndustry&'
+url_dataset = '&method=GetData&datasetname=GDPbyIndustry'
+url_params = '&Year=ALL&Industry=ALL&tableID=ALL&Frequency=A,Q'
+url = f'https://apps.bea.gov/api/data?&UserID={secret_key}{url_dataset}{url_params}'
 headers = {
     'Authorization': f'Bearer {secret_key}'  # Replace with your actual access token
 }
